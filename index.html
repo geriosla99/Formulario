@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scripts/script.js">
+</head>
+<body id="body">
+    <div class="container">
+        <h1 id="title">Curso de pasteleria</h1>
+        <p id="description">Para nosotros es muy importante estar en contacto contigo</p>
+        <div content>
+            <form id="survey-form" action="">
+                <div>
+                    <label id="label-name" for="name">Nombre y Apellido</label><br>
+                    <input id="name" type="text" placeholder="Nombre y Apellido"><br>
+                </div>
+                <div>
+                    <label id="label-email" for="email">Ingresa tu Email</label><br>
+                    <input id="email" type="text" placeholder="Ejem: Tuemail@gmail/outlook/hotmail.com"><br>
+                </div>
+                <div>
+                    <label id="label-number" for="edad">Edad</label><br>
+                    <input id="number" type="number" min="0" max="80"><br>
+                </div>
+                <div>
+                    <p>Tipo de pasteleria</p>
+                    <select name="carrera" class="form-control" id="dropdown" required>
+                        <option class="tipo" value="Ponques" >Seleccione Aquí</option>
+                        <option class="tipo" value="Ponques">Ponques</option>
+                        <option class="tipo" value="Tortas">Tortas</option>
+                        <option class="tipo" value="Tartaletas">Tartaletas</option>
+                        <option class="tipo" value="Quesillo">Quesillo</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Horario en el que puedes estudiar</p>
+                    <label><input type="radio" name="indoor-outdoor" unchecked>8:00 am - 12:00 pm Lun/Mie/Vie</label><br>
+                    <label><input type="radio" name="indoor-outdoor" unchecked>14:00 pm - 18:00 pm Lun/Mie/Vie</label><br>
+                    <label><input type="radio" name="indoor-outdoor" unchecked>10:00 am - 14:00pm Mar/Jue/Sab</label><br>
+                </div>
+                <div>
+                    <p>Tipos de decoracion que quieres ver en el curso</p>
+                    <label><input type="checkbox" value="dripcakes" name="decoracion" unchecked> Dripcake</label><br>
+                    <label><input type="checkbox" value="Marmoleado" name="decoracion" unchecked> Marmoleado</label><br>
+                    <label><input type="checkbox" value="Fondant" name="decoracion" unchecked> Fondant</label><br>
+                    <label><input type="checkbox" value="lettering" name="decoracion" unchecked> Lettering</label><br>
+                </div>
+                <div>
+                    <p>Escribenos tus dudas o sugerencias</p>
+                    <textarea name="Mensaje" id="Mensaje" cols="85" rows="10" placeholder="Escribe Aquí"></textarea>
+                </div>  
+                <div>
+                    <button id="enviar" type="submit">Enviar</button>
+                </div> 
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

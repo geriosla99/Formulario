@@ -1,0 +1,77 @@
+#body{
+    background-image: url(../image/t.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 188, 238);
+    opacity: 1;
+}
+.container{
+    width: 40em;
+    margin-left: 26%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+#title{
+    font-family: Pt sans;
+    text-align: center;
+    font-size: 40px;
+}
+#description{
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    font-family: Pt sans;
+    text-align: left;
+    font-size: 22px;
+}
+#survey-form{
+    font-size: 18px;
+    font-family:pt sans ;
+   
+}
+#name{
+    width: 31em;
+    height:1.5em;
+    border-radius: 5px;
+    font-size: 18px;
+    border: grey solid 1px;
+}
+#email{
+    width: 31em;
+    height:1.5em;
+    border-radius: 5px;
+    font-size: 18px;
+    border: grey solid 1px;
+}
+#number{
+    width: 31em;
+    height:1.5em;
+    border-radius: 5px;
+    font-size: 18px;
+    border: grey solid 1px;
+}
+#dropdown{
+    width: 31.5em;
+    height:1.5em;
+    border-radius: 5px;
+    font-size: 20px;
+    border: grey solid 1px;
+}
+.tipo{
+    border-radius: 2px;
+}
+#mensaje{
+    width: 400px;
+    height: 300px;
+    border: 2px solid 900938;
+}
+#enviar{
+    font-size: 20px;
+    width: 31em;
+    background-color: rgb(247, 140, 215);
+    border-radius: 5px;
+    border: grey solid 1px;
+    color: white;
+}
